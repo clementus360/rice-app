@@ -1,0 +1,50 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: auto;
+    position: relative;
+    top: 5vw;
+}
+
+#numberList {
+    width: 48vw;
+    height: auto;
+}
+
+#previousNext {
+    width: 12vw;
+    height: auto;
+}
+
+#socialIcons {
+    width: 20vw;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        margin-top: 10vw;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+    #numberList {
+        width: 95vw;
+        height: 10vw;
+    }
+    
+    #previousNext {
+        width: 30vw;
+        height: auto;
+        justify-self: center;
+    }
+    
+    #socialIcons {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        width: 50vw;
+        height: 10vw;
+        justify-self: center;
+    }
+}

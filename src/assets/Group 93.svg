@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="530" height="45" viewBox="0 0 530 45">
+  <g id="Group_93" data-name="Group 93" transform="translate(-594 -55)">
+    <text id="Home" transform="translate(594 73)" fill="#dbdbdb" font-size="17" font-family="Poppins-Light, Poppins" font-weight="300" letter-spacing="0.169em"><tspan x="0" y="0">Home</tspan></text>
+    <text id="Menu" transform="translate(709 73)" fill="#dbdbdb" font-size="17" font-family="Poppins-Light, Poppins" font-weight="300" letter-spacing="0.169em"><tspan x="0" y="0">Menu</tspan></text>
+    <text id="Services" transform="translate(819 73)" fill="#dbdbdb" font-size="17" font-family="Poppins-Light, Poppins" font-weight="300" letter-spacing="0.169em"><tspan x="0" y="0">Services</tspan></text>
+    <text id="Map" transform="translate(964 73)" fill="#dbdbdb" font-size="17" font-family="Poppins-Light, Poppins" font-weight="300" letter-spacing="0.169em"><tspan x="0" y="0">Map</tspan></text>
+    <text id="About" transform="translate(1062 73)" fill="#dbdbdb" font-size="17" font-family="Poppins-Light, Poppins" font-weight="300" letter-spacing="0.169em"><tspan x="0" y="0">About</tspan></text>
+    <rect id="Rectangle_165" data-name="Rectangle 165" width="59" height="6" transform="translate(594 94)" fill="#fff"/>
+  </g>
+</svg>

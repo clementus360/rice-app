@@ -1,0 +1,15 @@
+@import 'header.scss';
+@import 'footer.scss';
+@import 'body.scss';
+
+body {
+    background: url("../assets/350e95122073867.60d25659ce776@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: linear-gradient(to right, #f24031, #d51f1f);
+    }
+}

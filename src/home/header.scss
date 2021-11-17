@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95vw;
+    margin: auto;
+    margin-top: 2vw;
+}
+
+#logo {
+    width: 1.5vw;
+    height: 2vw;
+}
+
+#navBar {
+    width: 25vw;
+    height: 2.2vw;
+}
+
+#hamburgerMenu {
+    width: 1.5vw;
+    height: 2vw;
+}
+
+#line {
+    width: 95vw;
+    height: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    #logo {
+        justify-self: center;
+        width: 10vw;
+        height: auto;
+    }
+    #navBar {
+        justify-self: center;
+        width: 85vw;
+        margin-top: 3vw;
+        height: auto;
+    }
+
+    #hamburgerMenu {
+        visibility: hidden;
+    }
+}
+
