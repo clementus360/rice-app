@@ -5,6 +5,42 @@
     src: url("./assets/fonts/Sofia Pro/Sofia Pro Black Az.otf");
 }
 
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 800;
+    src: url("./assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 600;
+    src: url("./assets/fonts/Open_Sans/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    src: url("./assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-weight: 600;
+    src: url("./assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-weight: 300;
+    src: url("./assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-weight: 100;
+    src: url("./assets/fonts/Poppins/Poppins-Light.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;

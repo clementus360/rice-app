@@ -3,12 +3,30 @@
 @import 'body.scss';
 
 body {
-    background: url("../assets/350e95122073867.60d25659ce776@2x.png");
-    background-repeat: no-repeat;
+    background: url("../assets/350e95122073867.60d25659ce776@2x.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-height: 500px) {
+    body {
+        background: url("../assets/350e95122073867.60d25659ce776@2x.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    body {
+        background: linear-gradient(to right, #f24031, #d51f1f);
+    }
+}
+
+@media screen and (min-height: 1300px) {
     body {
         background: linear-gradient(to right, #f24031, #d51f1f);
     }
