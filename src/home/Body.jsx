@@ -1,5 +1,5 @@
-import firstPlate from '../assets/Group 109@2x.png'
-import secondPlate from '../assets/68e08138077791.575576838de9d@2x.png'
+import firstPlate from '../assets/Group 109.png'
+import secondPlate from '../assets/68e08138077791.575576838de9d.png'
 import number from '../assets/Path 99.svg'
 
 function Body() {

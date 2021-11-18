@@ -7,11 +7,11 @@ import './home.scss'
 
 function Home() {
     return (
-      <>
-      <Header/>
-      <Body/>
-      <Footer/>
-      </>
+      <div className="homePage">
+        <Header/>
+        <Body/>
+        <Footer/>
+      </div>
     );
   }
   

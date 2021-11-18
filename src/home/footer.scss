@@ -3,8 +3,8 @@ footer {
     justify-content: space-between;
     width: 95vw;
     margin: auto;
-    position: relative;
-    top: 3.5vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 #numberList {
@@ -22,34 +22,7 @@ footer {
     height: auto;
 }
 
-@media screen and (max-width: 900px) {
-    footer {
-        margin-top: 10vw;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        justify-content: center;
-    }
-    #numberList {
-        width: 95vw;
-        height: 10vw;
-    }
-    
-    #previousNext {
-        width: 30vw;
-        height: auto;
-        justify-self: center;
-    }
-    
-    #socialIcons {
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-        width: 50vw;
-        height: 10vw;
-        justify-self: center;
-    }
-}
-
-@media screen and (min-height: 1300px) {
+@media screen and (max-width: 900px),(min-height: 1300px) {
     footer {
         margin-top: 10vw;
         display: grid;
